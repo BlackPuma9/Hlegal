@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../css/fonts/Montserrat-Regular.woff2") format("woff2"), url("Montserrat-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../css/fonts/Montserrat-Regular.woff2") format("woff2"), url("../css/fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../css/fonts/Montserrat-Bold.woff2") format("woff2"), url("../css/fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+p {
+  font-family: "Montserrat";
+  font-weight: 800;
+  color: blue;
+}
+
+/*# sourceMappingURL=main.css.map */
