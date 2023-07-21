@@ -19,10 +19,60 @@
   font-style: normal;
   font-display: swap;
 }
-p {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to left, #323264, #323264, #643e72);
   font-family: "Montserrat";
-  font-weight: 800;
-  color: blue;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.header-wrapper {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+}
+
+.navigation-link:not(:last-child) {
+  margin-right: 15px;
+}
+
+.banner {
+  width: 100%;
+  height: 799px;
+  padding-top: 0px;
+  color: #ffffff;
+  background-image: url("../img/back-logo.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 /*# sourceMappingURL=main.css.map */
