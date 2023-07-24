@@ -6,33 +6,377 @@
     <title>Hlegal</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="header-wrapper">
-          <a href="#">
-            <img src="./img/Logo.svg" />
-          </a>
+    <section class="banner">
+      <header class="header">
+        <div class="container">
+          <div class="header-wrapper">
+            <a href="#">
+              <img src="./img/logo.svg" alt="Hlegal logo" />
+            </a>
 
-          <div class="navigation">
-            <div class="upper-natigation"></div>
+            <div class="navigation">
+              <div class="upper-natigation">
+                <a class="upper-natigation-item language">УК</a>
+                <a class="upper-natigation-item language">РУ</a>
+                <a class="upper-natigation-item language">EN</a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="6"
+                  height="7"
+                  viewBox="0 0 6 7"
+                  fill="none"
+                >
+                  <circle cx="3" cy="3.5" r="3" fill="#E6E6F0" />
+                </svg>
+                <p class="upper-natigation-item nav-adress">
+                  Kyiv, Mechnikova str, 14/1
+                </p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="6"
+                  height="7"
+                  viewBox="0 0 6 7"
+                  fill="none"
+                >
+                  <circle cx="3" cy="3.5" r="3" fill="#E6E6F0" />
+                </svg>
+                <a href="tel:0800 211 927"
+                  ><p class="upper-natigation-item nav-phone">
+                    0800 211 927
+                  </p></a
+                >
 
-            <nav>
-              <ul class="navigation-links">
-                <a href="#" class="navigation-link"><li>about us</li></a>
-                <a href="#" class="navigation-link"><li>services</li></a>
-                <a href="#" class="navigation-link"><li>team</li></a>
-                <a href="#" class="navigation-link"><li>publications</li></a>
-                <a href="#" class="navigation-link"><li>contact</li></a>
-              </ul>
-            </nav>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="6"
+                  height="7"
+                  viewBox="0 0 6 7"
+                  fill="none"
+                >
+                  <circle cx="3" cy="3.5" r="3" fill="#E6E6F0" />
+                </svg>
+                <a href="https://www.facebook.com/"
+                  ><img
+                    class="upper-natigation-item"
+                    src="./img/facebook-header.svg"
+                    alt="Facebook logo"
+                /></a>
+              </div>
+
+              <nav>
+                <ul class="navigation-links">
+                  <a href="#" class="navigation-link"><li>about us</li></a>
+                  <a href="#" class="navigation-link"><li>services</li></a>
+                  <a href="#" class="navigation-link"><li>team</li></a>
+                  <a href="#" class="navigation-link"><li>publications</li></a>
+                  <a href="#" class="navigation-link"><li>contact</li></a>
+                </ul>
+              </nav>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
-    <div class="banner"></div>
+      </header>
 
-    <main></main>
+      <h1>you legal solutions provider</h1>
+      <div class="home-btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="42"
+          height="42"
+          viewBox="0 0 42 42"
+          fill="none"
+        >
+          <g clip-path="url(#clip0_22728_11340)">
+            <circle
+              opacity="0.5"
+              cx="21"
+              cy="21"
+              r="20"
+              stroke="white"
+              stroke-width="2"
+            />
+            <path d="M12 18L21 27L30 18" stroke="white" stroke-width="2" />
+          </g>
+          <defs>
+            <clipPath id="clip0_22728_11340">
+              <rect width="42" height="42" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+    </section>
+
+    <main>
+      <section class="about">
+        <div class="container">
+          <div class="about-wrapper">
+            <div class="about-wrapper-firtschild">
+              <p class="about-wrapper-hover">Consistent</p>
+              <p class="about-wrapper-hover">Customer oriented</p>
+              <p class="about-wrapper-hover">Innovative</p>
+              <p class="about-wrapper-hover">Business oriented</p>
+            </div>
+            <div class="about-wrapper-child">
+              <h3 class="about-title">We turn the idea of legal services</h3>
+              <p class="about-description">
+                Consolidating many years of experience and practice, the
+                company's lawyers accompany complex projects and achieve a
+                number of important decisions for the industry. Many of them
+                form the practice of applying the law of the sea in Ukraine.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="container">
+          <a href="#" class="services-link"
+            >Services
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="13"
+              viewBox="0 0 12 13"
+              fill="none"
+            >
+              <path d="M3.5 2L8 6.5L3.5 11" stroke="#24A3FF" stroke-width="2" />
+            </svg>
+          </a>
+
+          <h2 class="services-title">What can we do better than others?</h2>
+
+          <div class="services-wrapper">
+            <div class="services-items">
+              <img src="./img/services/icon-1.svg" alt="Icons services" />
+              <h4 class="services-items-title">IT and e-commerce</h4>
+              <p class="services-items-description">
+                An endless stream of contracts, tax issues, labor relations,
+                corporate papers - legal work distracts you from doing business.
+                But there is not much work to do to hire an in-house lawyer.
+              </p>
+            </div>
+
+            <div class="services-items">
+              <img src="./img/services/icon-2.svg" alt="Icons services" />
+              <h4 class="services-items-title">
+                Comprehensive daily legal support
+              </h4>
+              <p class="services-items-description">
+                In addition, over time, the work will become the same type and
+                uninteresting for a full-time lawyer. And we know very well how
+                difficult it is to find a good candidate with experience in the
+                field of information technology in Ukraine.
+              </p>
+            </div>
+
+            <div class="services-items">
+              <img src="./img/services/icon-3.svg" alt="Icons services" />
+              <h4 class="services-items-title">
+                Structuring corporate relationships
+              </h4>
+              <p class="services-items-description">
+                Instead of just providing legal services, we will hire a lawyer
+                or a whole team that will fit into the daily life of your
+                company.
+              </p>
+            </div>
+
+            <div class="services-items">
+              <img src="./img/services/icon-4.svg" alt="Icons services" />
+              <h4 class="services-items-title">
+                Building contractual relations
+              </h4>
+              <p class="services-items-description">
+                Once a week, or week after month, you have your own lawyer by
+                your side. Anyone in the company can catch it at the coffee
+                maker and just talk about current affairs instead of waiting for
+                update status.
+              </p>
+            </div>
+
+            <div class="services-items">
+              <img src="./img/services/icon-5.svg" alt="Icons services" />
+              <h4 class="services-items-title">
+                Protection of business, intellectual property
+              </h4>
+              <p class="services-items-description">
+                And all the other time he will work on new diverse projects, so
+                he will definitely not stop in professional development. One way
+                or another, all Axon Partners will work for you instead of a
+                corporate lawyer.
+              </p>
+            </div>
+
+            <div class="services-items">
+              <img src="./img/services/icon-6.svg" alt="Icons services" />
+              <h4 class="services-items-title">Judicial representation</h4>
+              <p class="services-items-description">
+                Is it a small, medium-sized company or a market leader? Local
+                business or multinational company? Do you have your own legal
+                department or not?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slider">
+        <div class="container">
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div>
+                  <img src="./img/slider/slide-1.png" alt="Slide" />
+                  <div class="team-link">
+                    <a href="#" class="services-link"
+                      >Team
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="12"
+                        height="13"
+                        viewBox="0 0 12 13"
+                        fill="none"
+                      >
+                        <path
+                          d="M3.5 2L8 6.5L3.5 11"
+                          stroke="#24A3FF"
+                          stroke-width="2"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+
+                  <p class="slider-title">
+                    Ми звикли брати на себе відповідальність та завжди
+                    гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли
+                    більшість безсилі.
+                  </p>
+                  <p class="slider-author">Олександр Олександровський</p>
+                  <p class="slider-author-role">Керуючий партнер</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                  <img src="./img/slider/slide-1.png" alt="Slide" />
+                  <div class="team-link">
+                    <a href="#" class="services-link"
+                      >Team
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="12"
+                        height="13"
+                        viewBox="0 0 12 13"
+                        fill="none"
+                      >
+                        <path
+                          d="M3.5 2L8 6.5L3.5 11"
+                          stroke="#24A3FF"
+                          stroke-width="2"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+
+                  <p class="slider-title">
+                    Ми звикли брати на себе відповідальність та завжди
+                    гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли
+                    більшість безсилі.
+                  </p>
+                  <p class="slider-author">Олександр Олександровський</p>
+                  <p class="slider-author-role">Керуючий партнер</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div>
+                  <img src="./img/slider/slide-1.png" alt="Slide" />
+                  <div class="team-link">
+                    <a href="#" class="services-link"
+                      >Team
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="12"
+                        height="13"
+                        viewBox="0 0 12 13"
+                        fill="none"
+                      >
+                        <path
+                          d="M3.5 2L8 6.5L3.5 11"
+                          stroke="#24A3FF"
+                          stroke-width="2"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+
+                  <p class="slider-title">
+                    Ми звикли брати на себе відповідальність та завжди
+                    гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли
+                    більшість безсилі.
+                  </p>
+                  <p class="slider-author">Олександр Олександровський</p>
+                  <p class="slider-author-role">Керуючий партнер</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="partners">
+        <div class="container">
+          <h3 class="partners-title">They already trust us</h3>
+          <div class="partners-wrapper">
+            <div class="partners-item one">
+              <img src="./img/partners/partner-1.svg" alt="Partners logo" />
+            </div>
+            <div class="partners-item two">
+              <img src="./img/partners/partner-2.svg" alt="Partners logo" />
+            </div>
+            <div class="partners-item three">
+              <img src="./img/partners/partner-3.svg" alt="Partners logo" />
+            </div>
+            <div class="partners-item four">
+              <img src="./img/partners/partner-4.svg" alt="Partners logo" />
+            </div>
+            <!-- <img src="./img/partners/partner-1.png" alt="Partners logo" />
+            <img src="./img/partners/partner-2.png" alt="Partners logo" />
+            <img src="./img/partners/partner-3.png" alt="Partners logo" />
+            <img src="./img/partners/partner-4.png" alt="Partners logo" />
+            <img src="./img/partners/partner-5.png" alt="Partners logo" />
+            <img src="./img/partners/partner-6.png" alt="Partners logo" />
+            <img src="./img/partners/partner-7.png" alt="Partners logo" />
+            <img src="./img/partners/partner-8.png" alt="Partners logo" />
+            <img src="./img/partners/partner-9.png" alt="Partners logo" />
+            <img src="./img/partners/partner-10.png" alt="Partners logo" />
+            <img src="./img/partners/partner-11.png" alt="Partners logo" />
+            <img src="./img/partners/partner-12.png" alt="Partners logo" /> -->
+          </div>
+        </div>
+      </section>
+
+      <div style="height: 200px; background-color: white"></div>
+    </main>
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>

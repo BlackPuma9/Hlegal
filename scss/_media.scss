@@ -1,0 +1,50 @@
+/* 320 - 768 - 1100 - 1900 --> Sizes of the screen */
+
+@media (max-width: 1100px) {
+  .services-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .swiper-slide img {
+    float: inherit;
+  }
+  .slider-title {
+    font-size: 30px;
+  }
+  .team-link {
+    padding-left: 0px;
+  }
+  .slider-author-role {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-wrapper-firtschild {
+    margin-bottom: 30px;
+    border-right: 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .about-wrapper-hover {
+    &:last-child {
+      margin-bottom: 30px;
+    }
+  }
+  .about-wrapper-child {
+    padding-left: 30px;
+  }
+  .services-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

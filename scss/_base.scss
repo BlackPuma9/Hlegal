@@ -2,6 +2,9 @@ $base-color: #ffffff;
 $grey-color: #b3b3ba;
 $blue-color: #24a3ff;
 $main-regular-color: #323264;
+$accent-color: #f0145a;
+$font-regular: 400;
+$font-bold: 700;
 $gradient-red-reversed: linear-gradient(to left, #ef8080, #f0145a);
 $gradient-red-text: linear-gradient(to left, #f0145a, #ef8080);
 
@@ -9,15 +12,22 @@ $gradient-red-text: linear-gradient(to left, #f0145a, #ef8080);
   box-sizing: border-box;
 }
 
+html,
 body {
-  background-image: linear-gradient(to left, #323264, #323264, #643e72);
   font-family: "Montserrat";
-  font-weight: 700;
+  font-weight: $font-bold;
+  color: $base-color;
+  background-image: linear-gradient(
+    208deg,
+    #323264 0%,
+    #323264 59.9%,
+    #643e72 100%
+  );
+  // position: relative;
 }
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 li {
@@ -27,7 +37,7 @@ li {
 }
 
 .container {
-  max-width: 1350px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 0px 15px;
 }
