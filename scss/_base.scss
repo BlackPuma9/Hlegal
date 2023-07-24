@@ -98,18 +98,19 @@ li {
   line-height: normal;
   letter-spacing: 1px;
   text-transform: uppercase;
-  &:hover {
-    color: $accent-color;
-  }
   svg {
     padding-top: 3px;
     cursor: pointer;
     transition: 0.5s;
-    &:hover path {
-      stroke: $accent-color;
+  }
+  &:hover {
+    color: $accent-color;
+    svg {
+      path {
+        stroke: $accent-color;
+      }
     }
   }
-  border-radius: 0px 0px 12px 12px;
 }
 
 .services-title {

@@ -102,17 +102,16 @@ li {
   line-height: normal;
   letter-spacing: 1px;
   text-transform: uppercase;
-  border-radius: 0px 0px 12px 12px;
-}
-.services-link:hover {
-  color: #f0145a;
 }
 .services-link svg {
   padding-top: 3px;
   cursor: pointer;
   transition: 0.5s;
 }
-.services-link svg:hover path {
+.services-link:hover {
+  color: #f0145a;
+}
+.services-link:hover svg path {
   stroke: #f0145a;
 }
 
