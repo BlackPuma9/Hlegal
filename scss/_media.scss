@@ -55,6 +55,8 @@
     &:last-child {
       margin-bottom: 30px;
     }
+    width: auto;
+    font-size: 30px;
   }
   .about-wrapper-child {
     padding-left: 30px;
@@ -88,6 +90,11 @@
 }
 
 @media (max-width: 568px) {
+  .about-wrapper-firtschild {
+    padding-right: 0px;
+    text-align: center;
+  }
+
   .publication-wrapper {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 1fr);

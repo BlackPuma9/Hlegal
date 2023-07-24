@@ -548,6 +548,10 @@ footer {
     border-right: 0px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
+  .about-wrapper-hover {
+    width: auto;
+    font-size: 30px;
+  }
   .about-wrapper-hover:last-child {
     margin-bottom: 30px;
   }
@@ -581,6 +585,10 @@ footer {
   }
 }
 @media (max-width: 568px) {
+  .about-wrapper-firtschild {
+    padding-right: 0px;
+    text-align: center;
+  }
   .publication-wrapper {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 1fr);
