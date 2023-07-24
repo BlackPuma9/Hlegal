@@ -1,1 +1,61 @@
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f5f5fa;
+  margin-top: -1px;
+}
 
+.flex-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-adress,
+.footer-contact {
+  margin-bottom: 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-location {
+  color: $main-regular-color;
+  font-size: 16px;
+  font-weight: $font-regular;
+  line-height: normal;
+}
+
+.footer-dot-separator {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer-map-link {
+  display: block;
+  padding-top: 3px;
+  color: $blue-color;
+  font-size: 12px;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.footer-phone {
+  color: #46466e;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.footer-email {
+  color: $blue-color;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.flex-footer-right {
+  color: $grey-color;
+  text-align: right;
+  font-size: 16px;
+  font-weight: $font-regular;
+  line-height: normal;
+}
