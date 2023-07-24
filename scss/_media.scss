@@ -41,6 +41,10 @@
 }
 
 @media (max-width: 776px) {
+  .navigation {
+    display: none;
+  }
+
   .about-wrapper {
     flex-direction: column;
     justify-content: center;
