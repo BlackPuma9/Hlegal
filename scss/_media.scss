@@ -52,19 +52,44 @@
   }
   .about-wrapper-firtschild {
     margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-right: 0px;
     border-right: 0px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
-  .about-wrapper-hover {
+  .about-link {
+    width: auto;
+    font-size: 30px;
     &:last-child {
       margin-bottom: 30px;
     }
-    width: auto;
-    font-size: 30px;
+    &:nth-child(2) {
+      margin-right: 175px;
+    }
   }
   .about-wrapper-child {
     padding-left: 30px;
   }
+
+  .scroll-bar {
+    display: inherit;
+    width: 100%;
+    overflow: scroll;
+    ::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px #363d4d14;
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 10px;
+    }
+  }
+
   .services-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }

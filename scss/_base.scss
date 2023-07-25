@@ -64,11 +64,15 @@ li {
   font-weight: $font-bold;
   line-height: normal;
   width: 375px;
-  &:not(:last-child) {
-    margin-bottom: 30px;
-  }
   &:hover {
     color: $accent-color;
+  }
+}
+
+.about-link {
+  &:not(:last-child) {
+    display: inline-block;
+    margin-bottom: 30px;
   }
 }
 
