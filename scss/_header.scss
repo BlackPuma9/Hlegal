@@ -30,6 +30,11 @@
   &:not(:last-child) {
     margin-right: 15px;
   }
+  li {
+    &:hover {
+      color: $accent-color;
+    }
+  }
 }
 
 .upper-natigation {
@@ -56,9 +61,24 @@
   }
 }
 
-.upper-natigation svg {
-  margin-left: 6px;
-  margin-right: 6px;
+.upper-natigation {
+  a {
+    svg {
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    &:hover {
+      svg {
+        path {
+          fill: $accent-color;
+        }
+      }
+    }
+  }
+  svg {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
 }
 
 .nav-adress {

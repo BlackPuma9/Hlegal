@@ -18,6 +18,27 @@ footer {
   align-items: center;
 }
 
+.footer-contact {
+  a {
+    svg {
+      margin-left: 6px;
+      margin-right: 6px;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+    &:hover {
+      svg {
+        path {
+          fill: $accent-color;
+        }
+      }
+      .footer-email {
+        color: $accent-color;
+      }
+    }
+  }
+}
+
 .footer-location {
   color: $main-regular-color;
   font-size: 16px;

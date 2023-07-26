@@ -53,6 +53,13 @@
     a {
       li {
         display: block;
+        padding: 7px 0px;
+        border-radius: 12px;
+        background-color: #f5f5fa;
+        color: $blue-color;
+        &:hover {
+          color: $accent-color;
+        }
       }
     }
   }
@@ -92,12 +99,16 @@
 
   .navigation-menu-center {
     display: flex;
-    align-items: center;
+    // align-items: center;
+  }
+
+  .navigation-menu-logo {
+    margin-right: 4px;
   }
 
   .navigation-menu-link {
     display: inline-block;
-    margin-left: 26px;
+    margin-left: 4px;
     color: $base-color;
     font-size: 20px;
     font-weight: $font-regular;
@@ -109,6 +120,7 @@
     top: 100px;
     text-align: center;
     width: 100%;
+    background-color: rgba(50, 50, 100, 0.7);
   }
 
   //   mobile navigation end
