@@ -23,7 +23,6 @@
   box-sizing: border-box;
 }
 
-html,
 body {
   font-family: "Montserrat";
   font-weight: 700;
@@ -768,6 +767,69 @@ footer {
   h1 {
     margin-bottom: 250px;
   }
+}
+#popup-main-container {
+  background-color: rgba(50, 50, 100, 0.6999999881);
+  background-image: none;
+}
+
+.popup-wrapper {
+  padding-bottom: 10px;
+  position: relative;
+}
+
+form {
+  background-color: #f5f5fa;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.popup-main-title {
+  margin: 0px 0px 30px 0px;
+  font-size: 38px;
+  line-height: normal;
+  background: linear-gradient(118deg, #f0145a 0%, #ef8080 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  gap: 30px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
+
+.submit-btn {
+  width: 100%;
+  border: 0px;
+  border-radius: 12px;
+  background: #24a3ff;
+  box-shadow: 0px 0px 20px 0px rgba(36, 163, 255, 0.5);
+  padding: 18px 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.close-btn {
+  position: absolute;
+  top: 46px;
+  right: 277px;
 }
 
 /*# sourceMappingURL=main.css.map */
