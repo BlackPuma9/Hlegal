@@ -24,29 +24,18 @@
 }
 
 @media (max-width: 1036px) {
-  .swiper-slide img {
-    float: inherit;
-    width: 100%;
-    margin-right: 0px;
-  }
-  .slider-title {
-    font-size: 30px;
-  }
   .team-link {
     padding-left: 0px;
   }
-  .slider-author-role {
-    margin-bottom: 30px;
-  }
 }
 
-@media (min-width: 775px) {
+@media (min-width: 921px) {
   .header-mobile {
     display: none;
   }
 }
 
-@media (max-width: 776px) {
+@media (max-width: 920px) {
   // mobile navigation
 
   .navigation-links-mobile {
@@ -99,11 +88,6 @@
 
   .navigation-menu-center {
     display: flex;
-    // align-items: center;
-  }
-
-  .navigation-menu-logo {
-    margin-right: 4px;
   }
 
   .navigation-menu-link {
@@ -144,7 +128,7 @@
       margin-bottom: 30px;
     }
     &:nth-child(2) {
-      margin-right: 175px;
+      margin-right: 17%;
     }
   }
   .about-wrapper-child {
@@ -173,6 +157,24 @@
   .services-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .swiper-slide img {
+    float: inherit;
+    width: 100%;
+    margin-right: 0px;
+  }
+  .slider-title {
+    font-size: 30px;
+  }
+
+  .swiper-img {
+    border-radius: 40px;
+  }
+
+  .slider-author-role {
+    margin-bottom: 30px;
+  }
+
   .partners-wrapper {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 120px);
@@ -201,7 +203,6 @@
 @media (max-width: 568px) {
   .about-wrapper-firtschild {
     padding-right: 0px;
-    text-align: center;
   }
 
   .publication-wrapper {

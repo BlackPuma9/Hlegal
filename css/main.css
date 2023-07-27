@@ -351,6 +351,22 @@ li {
   display: block;
 }
 
+.services-title-modified {
+  margin-top: 60px;
+}
+
+.partners-container-modified {
+  padding-top: 60px;
+}
+
+.partners-title-modified {
+  padding-top: 70px;
+}
+
+.partners-wrapper-modified {
+  padding-bottom: 0px;
+}
+
 .banner {
   width: 100%;
   height: 799px;
@@ -384,6 +400,19 @@ li {
 }
 .navigation-link li:hover {
   color: #f0145a;
+}
+
+.navigation-menu-link {
+  display: inline-block;
+  margin-left: 4px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.navigation-menu-logo {
+  margin-right: 4px;
 }
 
 .upper-natigation {
@@ -454,6 +483,18 @@ h1 {
 }
 .home-btn svg:hover circle, .home-btn svg:hover path {
   stroke: #f0145a;
+}
+
+.header-wrapper-flex {
+  display: flex;
+}
+
+.header-service-link {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 4px;
 }
 
 footer {
@@ -555,27 +596,16 @@ footer {
   }
 }
 @media (max-width: 1036px) {
-  .swiper-slide img {
-    float: inherit;
-    width: 100%;
-    margin-right: 0px;
-  }
-  .slider-title {
-    font-size: 30px;
-  }
   .team-link {
     padding-left: 0px;
   }
-  .slider-author-role {
-    margin-bottom: 30px;
-  }
 }
-@media (min-width: 775px) {
+@media (min-width: 921px) {
   .header-mobile {
     display: none;
   }
 }
-@media (max-width: 776px) {
+@media (max-width: 920px) {
   .navigation-links-mobile a li {
     display: block;
     padding: 7px 0px;
@@ -615,9 +645,6 @@ footer {
   .navigation-menu-center {
     display: flex;
   }
-  .navigation-menu-logo {
-    margin-right: 4px;
-  }
   .navigation-menu-link {
     display: inline-block;
     margin-left: 4px;
@@ -653,7 +680,7 @@ footer {
     margin-bottom: 30px;
   }
   .about-link:nth-child(2) {
-    margin-right: 175px;
+    margin-right: 17%;
   }
   .about-wrapper-child {
     padding-left: 30px;
@@ -676,6 +703,20 @@ footer {
   }
   .services-wrapper {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .swiper-slide img {
+    float: inherit;
+    width: 100%;
+    margin-right: 0px;
+  }
+  .slider-title {
+    font-size: 30px;
+  }
+  .swiper-img {
+    border-radius: 40px;
+  }
+  .slider-author-role {
+    margin-bottom: 30px;
   }
   .partners-wrapper {
     grid-template-columns: repeat(1, 1fr);
@@ -703,7 +744,6 @@ footer {
 @media (max-width: 568px) {
   .about-wrapper-firtschild {
     padding-right: 0px;
-    text-align: center;
   }
   .publication-wrapper {
     grid-template-columns: repeat(1, 1fr);

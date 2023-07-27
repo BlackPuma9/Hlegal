@@ -37,6 +37,19 @@
   }
 }
 
+.navigation-menu-link {
+  display: inline-block;
+  margin-left: 4px;
+  color: $base-color;
+  font-size: 20px;
+  font-weight: $font-regular;
+  line-height: normal;
+}
+
+.navigation-menu-logo {
+  margin-right: 4px;
+}
+
 .upper-natigation {
   display: flex;
   align-items: center;
@@ -114,4 +127,18 @@ h1 {
   &:hover path {
     stroke: $accent-color;
   }
+}
+
+// services page
+
+.header-wrapper-flex {
+  display: flex;
+}
+
+.header-service-link {
+  color: $base-color;
+  font-size: 36px;
+  font-weight: $font-regular;
+  line-height: normal;
+  margin-left: 4px;
 }
