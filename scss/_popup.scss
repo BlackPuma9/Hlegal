@@ -1,23 +1,31 @@
 #popup-main-container {
   background-color: rgba(50, 50, 100, 0.699999988079071);
   background-image: none;
+  width: 100%;
+  top: 0;
+  position: fixed;
 }
 
 .popup-wrapper {
+  display: none;
   padding-bottom: 10px;
-  position: relative;
+  height: 100vh;
 }
 
 form {
   background-color: #f5f5fa;
   padding: 30px;
   border-radius: 12px;
+  max-width: 650px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .popup-main-title {
   margin: 0px 0px 30px 0px;
   font-size: 38px;
   line-height: normal;
+  text-align: start;
 
   background: linear-gradient(118deg, #f0145a 0%, #ef8080 100%);
   background-clip: text;
@@ -25,26 +33,39 @@ form {
   -webkit-text-fill-color: transparent;
 }
 
+.popup-subtitle {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+}
+
 .form-block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 30px;
-  gap: 30px;
+  padding: 100px 30px 30px 30px;
 }
 
 input {
-  display: block;
-  margin-bottom: 10px;
+  display: inline-block;
+  margin-bottom: 15px;
   width: 100%;
+  border: 0px;
+  height: 45px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-family: "Montserrat";
 }
 
 textarea {
   width: 100%;
+  border: 0px;
+  height: 130px;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  font-family: "Montserrat";
 }
 
 .submit-btn {
   width: 100%;
+  margin-top: 15px;
   border: 0px;
   border-radius: 12px;
   background: #24a3ff;
@@ -55,10 +76,25 @@ textarea {
   font-size: 16px;
   font-weight: 700;
   line-height: normal;
+  cursor: pointer;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  &:hover {
+    background-color: #f0145a;
+  }
 }
 
 .close-btn {
   position: absolute;
-  top: 46px;
-  right: 277px;
+  top: 9px;
+  right: 20px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  &:hover {
+    color: #f0145a;
+  }
 }

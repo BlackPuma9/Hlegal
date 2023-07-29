@@ -517,6 +517,37 @@
       </div>
     </footer>
 
+    <!-- popup here -->
+    <div id="popup-main-container">
+      <div class="popup-wrapper" id="popup">
+        <div class="form-block">
+          <form id="form1">
+            <h1 class="popup-main-title">We would like to help you</h1>
+            <a onclick="hideForm()" class="close-btn" href="#">&times;</a>
+            <input type="text" id="name" name="name" placeholder="Name" />
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Message"
+            ></textarea>
+
+            <h2 class="popup-subtitle">How to answer you?</h2>
+            <input
+              type="phone"
+              id="phone"
+              name="phone"
+              placeholder="Phone number"
+            />
+            <input type="email" id="email" name="email" placeholder="Email" />
+            <button type="submit" name="submit-btn" class="submit-btn">
+              Send message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
     <script src="../js/app.js"></script>
+    <script src="../js/popup.js"></script>
   </body>
 </html>
