@@ -15,3 +15,10 @@ document.addEventListener("click", function handleClickOutsideBox(event) {
     document.getElementById("popup").style.display = "none";
   }
 });
+
+document.getElementById("submit-btn").addEventListener("click", () => {
+  alert(
+    "Your form has been submitted succesfully. We will come back to you shortly!"
+  );
+  document.getElementById("popup").style.display = "none";
+});
